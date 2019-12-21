@@ -2,9 +2,11 @@ package com.zcy.service.impl;
 
 import com.zcy.User;
 import com.zcy.service.UserService;
+import org.springframework.stereotype.Service;
 
 import java.util.Date;
 
+@Service
 public class UserServiceImpl implements UserService {
     @Override
     public User getUserService(Long userId) {
